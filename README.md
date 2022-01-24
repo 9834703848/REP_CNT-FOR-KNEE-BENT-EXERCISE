@@ -3,17 +3,30 @@
 IN this project I used google mediapipe library which provide us the 33 3D landmarks of the human body.![name-of-you-image](https://github.com/9834703848/REP_CNT-FOR-KNEE-BENT-EXERCISE/blob/4f0cc0330058856e02e70457d3bbc5378e0e5ba9/pose_tracking_full_body_landmarks.png)
 
 As you can see in above image we are sufficient only 6 id of human body to detect the count of reps in knee bend exercise.
+
 id-24,26,28 for one leg and
 id-23,25,27 for another leg.
 
 First we will import all the libraries we need.
 
 from sys import get_asyncgen_hooks
+
+
 import numpy as np
+
+
 from pickle import FALSE, TRUE
+
+
 from unittest import result
+
+
 import cv2
+
+
 import mediapipe as mp
+
+
 from IPython.display import clear_output
 
 
